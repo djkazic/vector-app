@@ -8,6 +8,7 @@ target 'Vector' do
   # Pods for Vector
   pod 'GooglePlaces'
   pod 'SwiftSpinner'
+  pod 'Nominatim'
 
   target 'VectorTests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module Pods_VectorUITests {
+  umbrella header "Pods-VectorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

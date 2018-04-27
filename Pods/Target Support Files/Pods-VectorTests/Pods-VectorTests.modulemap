@@ -1,0 +1,6 @@
+framework module Pods_VectorTests {
+  umbrella header "Pods-VectorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

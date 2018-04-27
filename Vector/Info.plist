@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSLocationUsageDescription</key>
+    <string>Need location access for finding destinations</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app will use your location to populate addresses for pickups and destinations</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

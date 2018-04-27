@@ -14,6 +14,9 @@
 		53566B12209166080099FF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53566B10209166080099FF0F /* LaunchScreen.storyboard */; };
 		53566B1D209166080099FF0F /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53566B1C209166080099FF0F /* VectorTests.swift */; };
 		53566B28209166080099FF0F /* VectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53566B27209166080099FF0F /* VectorUITests.swift */; };
+		A0374BA728DB3BA1F7512C86 /* Pods_VectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D10774D624F224C2824E58 /* Pods_VectorTests.framework */; };
+		F813217A40502AF66B07FBA0 /* Pods_Vector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58EFD2E72778AF853B1CEAC /* Pods_Vector.framework */; };
+		FD1E3EE8B06456B020D41857 /* Pods_VectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160CB40436EFEB76919BFEAB /* Pods_VectorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160CB40436EFEB76919BFEAB /* Pods_VectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		485312F6BF663E7E30A85F1E /* Pods-VectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VectorUITests/Pods-VectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52F94907E3805B0E667D069F /* Pods-VectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VectorTests/Pods-VectorTests.release.xcconfig"; sourceTree = "<group>"; };
 		53566B04209166060099FF0F /* Vector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53566B07209166060099FF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53566B09209166060099FF0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		53566B23209166080099FF0F /* VectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53566B27209166080099FF0F /* VectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorUITests.swift; sourceTree = "<group>"; };
 		53566B29209166080099FF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B2CF9FC200534F74B303D0 /* Pods-Vector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vector/Pods-Vector.release.xcconfig"; sourceTree = "<group>"; };
+		7B2B37048B13185DD98ABAA6 /* Pods-VectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VectorTests/Pods-VectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC8C66001CCC0EFB6437FF1 /* Pods-Vector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vector/Pods-Vector.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D10774D624F224C2824E58 /* Pods_VectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11472A8979D222AC6A9F279 /* Pods-VectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VectorUITests/Pods-VectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F58EFD2E72778AF853B1CEAC /* Pods_Vector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F813217A40502AF66B07FBA0 /* Pods_Vector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0374BA728DB3BA1F7512C86 /* Pods_VectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1E3EE8B06456B020D41857 /* Pods_VectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2751B7DA6ADAFD83F09D5E4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DC8C66001CCC0EFB6437FF1 /* Pods-Vector.debug.xcconfig */,
+				67B2CF9FC200534F74B303D0 /* Pods-Vector.release.xcconfig */,
+				7B2B37048B13185DD98ABAA6 /* Pods-VectorTests.debug.xcconfig */,
+				52F94907E3805B0E667D069F /* Pods-VectorTests.release.xcconfig */,
+				485312F6BF663E7E30A85F1E /* Pods-VectorUITests.debug.xcconfig */,
+				D11472A8979D222AC6A9F279 /* Pods-VectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		53566AFB209166060099FF0F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				53566B1B209166080099FF0F /* VectorTests */,
 				53566B26209166080099FF0F /* VectorUITests */,
 				53566B05209166060099FF0F /* Products */,
+				2751B7DA6ADAFD83F09D5E4B /* Pods */,
+				888E6B8C6CF96B144DCD267B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = VectorUITests;
 			sourceTree = "<group>";
 		};
+		888E6B8C6CF96B144DCD267B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F58EFD2E72778AF853B1CEAC /* Pods_Vector.framework */,
+				C7D10774D624F224C2824E58 /* Pods_VectorTests.framework */,
+				160CB40436EFEB76919BFEAB /* Pods_VectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53566B2C209166080099FF0F /* Build configuration list for PBXNativeTarget "Vector" */;
 			buildPhases = (
+				0635421CF8B9CFDE15824B20 /* [CP] Check Pods Manifest.lock */,
 				53566B00209166060099FF0F /* Sources */,
 				53566B01209166060099FF0F /* Frameworks */,
 				53566B02209166060099FF0F /* Resources */,
+				E17ECC403333FC3578CD571B /* [CP] Embed Pods Frameworks */,
+				D1844CC5332A92657556AA72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53566B2F209166080099FF0F /* Build configuration list for PBXNativeTarget "VectorTests" */;
 			buildPhases = (
+				D186D4B2EC0246B425ED2ADC /* [CP] Check Pods Manifest.lock */,
 				53566B14209166080099FF0F /* Sources */,
 				53566B15209166080099FF0F /* Frameworks */,
 				53566B16209166080099FF0F /* Resources */,
+				8512A96E8D2E0FEAA8246E5A /* [CP] Embed Pods Frameworks */,
+				D813ED4E1D56D1667BF76D59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53566B32209166080099FF0F /* Build configuration list for PBXNativeTarget "VectorUITests" */;
 			buildPhases = (
+				44871491460F105F5C504C90 /* [CP] Check Pods Manifest.lock */,
 				53566B1F209166080099FF0F /* Sources */,
 				53566B20209166080099FF0F /* Frameworks */,
 				53566B21209166080099FF0F /* Resources */,
+				8BE9D30F194001005EDA1617 /* [CP] Embed Pods Frameworks */,
+				386B37D7184856EF3AA2F150 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,159 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0635421CF8B9CFDE15824B20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		386B37D7184856EF3AA2F150 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VectorUITests/Pods-VectorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44871491460F105F5C504C90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8512A96E8D2E0FEAA8246E5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VectorTests/Pods-VectorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE9D30F194001005EDA1617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VectorUITests/Pods-VectorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1844CC5332A92657556AA72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vector/Pods-Vector-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vector/Pods-Vector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D186D4B2EC0246B425ED2ADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D813ED4E1D56D1667BF76D59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VectorTests/Pods-VectorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17ECC403333FC3578CD571B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vector/Pods-Vector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vector/Pods-Vector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53566B00209166060099FF0F /* Sources */ = {
@@ -428,14 +630,13 @@
 		};
 		53566B2D209166080099FF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC8C66001CCC0EFB6437FF1 /* Pods-Vector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36Q46EV374;
 				INFOPLIST_FILE = Vector/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synthlock.Vector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +646,13 @@
 		};
 		53566B2E209166080099FF0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B2CF9FC200534F74B303D0 /* Pods-Vector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36Q46EV374;
 				INFOPLIST_FILE = Vector/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synthlock.Vector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +662,13 @@
 		};
 		53566B30209166080099FF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2B37048B13185DD98ABAA6 /* Pods-VectorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VectorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synthlock.VectorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +679,13 @@
 		};
 		53566B31209166080099FF0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F94907E3805B0E667D069F /* Pods-VectorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VectorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synthlock.VectorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +696,12 @@
 		};
 		53566B33209166080099FF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485312F6BF663E7E30A85F1E /* Pods-VectorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VectorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synthlock.VectorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +712,12 @@
 		};
 		53566B34209166080099FF0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11472A8979D222AC6A9F279 /* Pods-VectorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VectorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synthlock.VectorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

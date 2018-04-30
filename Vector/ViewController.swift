@@ -57,6 +57,8 @@ class ViewController: UIViewController {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .authorizedWhenInUse {
             print("User allowed us to access location")
+            // guard let locValue: CLLocationCoordinate2D = manager.location?.coordinate else { return }
+            // pickupField.text = "(\(locValue.latitude), \(locValue.longitude))"
         }
     }
     
@@ -132,7 +134,7 @@ class ViewController: UIViewController {
                             let jsonData = try? JSONSerialization.data(withJSONObject: json)
                             print("(debug): > jsonData = \(jsonData!)")
                             // let apiUrl = "http://02.duckdns.org:8888/comp"
-                            let apiUrl = "http://127.0.0.1:8888/comp"
+                            let apiUrl = "http://02.duckdns.org:8888/comp"
                             let url = URL(string: apiUrl)!
                             var request = URLRequest(url: url)
                             request.httpMethod = "POST"
@@ -159,6 +161,7 @@ class ViewController: UIViewController {
                             task.resume()
                         } else {
                             print("(error): Could not geocode for addresses")
+                            SwiftSpinner.hide()
                         }
                     }
                 })

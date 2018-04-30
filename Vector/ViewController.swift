@@ -12,6 +12,27 @@ import CoreLocation
 import GooglePlaces
 import SwiftSpinner
 import Nominatim
+import Pastel
+
+@IBDesignable extension UIButton {
+    @IBInspectable var borderRadius: CGFloat {
+        set {
+            layer.cornerRadius = 6
+        }
+        get {
+            return layer.cornerRadius
+        }
+    }
+    @IBInspectable var borderColor: UIColor? {
+        set {
+            layer.borderColor = UIColor.blue.cgColor
+        }
+        get {
+            guard layer.borderColor != nil else { return nil }
+            return UIColor.blue
+        }
+    }
+}
 
 class ViewController: UIViewController {
     
@@ -24,6 +45,8 @@ class ViewController: UIViewController {
     var lyftTimeStr: String = "? mins"
     var mbtaTimeStr: String = "? mins"
     
+    var defaultAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
+    
     @IBOutlet weak var pickupField: UITextField!
     @IBOutlet weak var destField: UITextField!
     @IBOutlet weak var uberPrice: UILabel!
@@ -34,6 +57,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let pastelView = PastelView(frame: view.bounds)
+        pastelView.startPastelPoint = .bottomLeft
+        pastelView.endPastelPoint = .topRight
+        pastelView.animationDuration = 3.0
+        pastelView.setColors([UIColor(red: 156/255, green: 39/255, blue: 176/255, alpha: 1.0),
+                              UIColor(red: 123/255, green: 31/255, blue: 162/255, alpha: 1.0),
+                              UIColor(red: 32/255, green: 76/255, blue: 255/255, alpha: 1.0),
+                              UIColor(red: 32/255, green: 158/255, blue: 255/255, alpha: 1.0),
+                              UIColor(red: 90/255, green: 120/255, blue: 127/255, alpha: 1.0),
+                              UIColor(red: 58/255, green: 255/255, blue: 217/255, alpha: 1.0)])
+        
+        pastelView.startAnimation()
+        view.insertSubview(pastelView, at: 0)
         if CLLocationManager.authorizationStatus() != .authorizedWhenInUse {
             locationManager.requestWhenInUseAuthorization()
         }
@@ -99,72 +135,79 @@ class ViewController: UIViewController {
         var destLon: Double = 0
         var geocodePickup = false
         var geocodeDest = false
-        SwiftSpinner.show("Aggregating price and time data...")
-        if let pickupAddr = self.pickupField.text {
-            if let destAddr = self.destField.text {
-                print("(debug): Attempting geocode -> lat, lon")
-                Nominatim.getLocation(fromAddress: pickupAddr, completion: {(location) -> Void in
-                    if let lat = location?.latitude {
-                        if let lon = location?.longitude {
-                            pickupLat = Double(lat)!
-                            pickupLon = Double(lon)!
-                            geocodePickup = true
-                            print("(debug): Secondary set pickup geocode")
+        if self.pickupField.text == "" || self.destField.text == "" {
+            // Alert user that they are wrong
+            let alertController = UIAlertController(title: "No addresses specified", message: "Please enter both a pickup and destination address", preferredStyle: .alert)
+            alertController.addAction(defaultAction)
+            present(alertController, animated: true, completion: nil)
+        } else {
+            SwiftSpinner.show("Aggregating price and time data...")
+            if let pickupAddr = self.pickupField.text {
+                if let destAddr = self.destField.text {
+                    print("(debug): Attempting geocode -> lat, lon")
+                    Nominatim.getLocation(fromAddress: pickupAddr, completion: {(location) -> Void in
+                        if let lat = location?.latitude {
+                            if let lon = location?.longitude {
+                                pickupLat = Double(lat)!
+                                pickupLon = Double(lon)!
+                                geocodePickup = true
+                                print("(debug): Secondary set pickup geocode")
+                            }
                         }
-                    }
-                })
-                Nominatim.getLocation(fromAddress: destAddr, completion: {(location) -> Void in
-                    if let lat = location?.latitude {
-                        if let lon = location?.longitude {
-                            destLat = Double(lat)!
-                            destLon = Double(lon)!
-                            geocodeDest = true
-                            print("(debug): Secondary set dest geocode")
-                        }
-                        
-                        if (geocodePickup && geocodeDest) {
-                            print("(debug): Price check START")
-                            print("(debug): > pickup: (\(pickupLat), \(pickupLon))")
-                            print("(debug): > dest: (\(destLat), \(destLon))")
-                            //TODO: API call to our server and populating outputs
-                            let json: [String: Any] = ["pickupLat": String(pickupLat),
-                                                       "pickupLon": String(pickupLon),
-                                                       "destLat": String(destLat),
-                                                       "destLon": String(destLon)]
-                            let jsonData = try? JSONSerialization.data(withJSONObject: json)
-                            print("(debug): > jsonData = \(jsonData!)")
-                            // let apiUrl = "http://02.duckdns.org:8888/comp"
-                            let apiUrl = "http://02.duckdns.org:8888/comp"
-                            let url = URL(string: apiUrl)!
-                            var request = URLRequest(url: url)
-                            request.httpMethod = "POST"
-                            request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-                            request.httpBody = jsonData
-                            let task = URLSession.shared.dataTask(with: request) { data, response, error in
-                                guard let data = data, error == nil else {
-                                    print(error?.localizedDescription ?? "No data")
-                                    return
-                                }
-                                let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
-                                if let responseJSON = responseJSON as? [String: Any] {
-                                    print("(debug): Response = \(responseJSON)")
-                                    DispatchQueue.main.async {
-                                        self.uberPrice.text = (responseJSON["PriceUber"] as? String)?.trimmingCharacters(in: .whitespaces)
-                                        self.uberTime.text = (responseJSON["TimeUber"] as? String)?.trimmingCharacters(in: .whitespaces)
-                                        self.lyftPrice.text = (responseJSON["PriceLyft"] as? String)?.trimmingCharacters(in: .whitespaces)
-                                        self.lyftTime.text = (responseJSON["TimeLyft"] as? String)?.trimmingCharacters(in: .whitespaces)
-                                        self.mbtaTime.text = (responseJSON["TimeMBTA"] as? String)?.trimmingCharacters(in: .whitespaces)
-                                        SwiftSpinner.hide()
+                    })
+                    Nominatim.getLocation(fromAddress: destAddr, completion: {(location) -> Void in
+                        if let lat = location?.latitude {
+                            if let lon = location?.longitude {
+                                destLat = Double(lat)!
+                                destLon = Double(lon)!
+                                geocodeDest = true
+                                print("(debug): Secondary set dest geocode")
+                            }
+                            
+                            if (geocodePickup && geocodeDest) {
+                                print("(debug): Price check START")
+                                print("(debug): > pickup: (\(pickupLat), \(pickupLon))")
+                                print("(debug): > dest: (\(destLat), \(destLon))")
+                                //TODO: API call to our server and populating outputs
+                                let json: [String: Any] = ["pickupLat": String(pickupLat),
+                                                           "pickupLon": String(pickupLon),
+                                                           "destLat": String(destLat),
+                                                           "destLon": String(destLon)]
+                                let jsonData = try? JSONSerialization.data(withJSONObject: json)
+                                print("(debug): > jsonData = \(jsonData!)")
+                                // let apiUrl = "http://02.duckdns.org:8888/comp"
+                                let apiUrl = "http://02.duckdns.org:8888/comp"
+                                let url = URL(string: apiUrl)!
+                                var request = URLRequest(url: url)
+                                request.httpMethod = "POST"
+                                request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+                                request.httpBody = jsonData
+                                let task = URLSession.shared.dataTask(with: request) { data, response, error in
+                                    guard let data = data, error == nil else {
+                                        print(error?.localizedDescription ?? "No data")
+                                        return
+                                    }
+                                    let responseJSON = try? JSONSerialization.jsonObject(with: data, options: [])
+                                    if let responseJSON = responseJSON as? [String: Any] {
+                                        print("(debug): Response = \(responseJSON)")
+                                        DispatchQueue.main.async {
+                                            self.uberPrice.text = (responseJSON["PriceUber"] as? String)?.trimmingCharacters(in: .whitespaces)
+                                            self.uberTime.text = (responseJSON["TimeUber"] as? String)?.trimmingCharacters(in: .whitespaces)
+                                            self.lyftPrice.text = (responseJSON["PriceLyft"] as? String)?.trimmingCharacters(in: .whitespaces)
+                                            self.lyftTime.text = (responseJSON["TimeLyft"] as? String)?.trimmingCharacters(in: .whitespaces)
+                                            self.mbtaTime.text = (responseJSON["TimeMBTA"] as? String)?.trimmingCharacters(in: .whitespaces)
+                                            SwiftSpinner.hide()
+                                        }
                                     }
                                 }
+                                task.resume()
+                            } else {
+                                print("(error): Could not geocode for addresses")
+                                SwiftSpinner.hide()
                             }
-                            task.resume()
-                        } else {
-                            print("(error): Could not geocode for addresses")
-                            SwiftSpinner.hide()
                         }
-                    }
-                })
+                    })
+                }
             }
         }
     }

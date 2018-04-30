@@ -3,19 +3,22 @@ PODS:
   - GooglePlaces (2.6.0):
     - GoogleMaps/Base (= 2.6.0)
   - Nominatim (0.9.2)
+  - Pastel (0.4.0)
   - SwiftSpinner (1.5.0)
 
 DEPENDENCIES:
   - GooglePlaces
   - Nominatim
+  - Pastel
   - SwiftSpinner
 
 SPEC CHECKSUMS:
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   Nominatim: 2083a9f3073c4f738c1e6669e3f3381494072cb7
+  Pastel: 7fa5e26123b3dbe11f7ed255654bf37100b199a5
   SwiftSpinner: 4c058c7a1d6b444dd2e1d70988ead40783097133
 
-PODFILE CHECKSUM: aa8316798f8fb39a50a53fd6376cbdc7ce3075f0
+PODFILE CHECKSUM: bf9924e2b68dcff95e8557bf51b896ebff28a1e0
 
 COCOAPODS: 1.4.0

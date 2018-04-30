@@ -9,6 +9,8 @@ target 'Vector' do
   pod 'GooglePlaces'
   pod 'SwiftSpinner'
   pod 'Nominatim'
+  pod "Pastel"
+  # pod 'ChameleonFramework/Swift'
 
   target 'VectorTests' do
     inherit! :search_paths

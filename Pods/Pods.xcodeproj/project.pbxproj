@@ -7,100 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0858A7E5BD1F18DFBE3317C458E40F02 /* Nominatim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4683DDE44E9AF4C66B124130B286B9A5 /* Nominatim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A1E8B84A183F19949A59481ACC8B115 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC896C7D120A840CD7BA2F42FEE3528 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D6322755EC4E72960C620AD75932ECC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		2048516EB353E728796EF059E4C49B6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		0858A7E5BD1F18DFBE3317C458E40F02 /* Nominatim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C65B5D1E7AA4F2550725B6EF528E4C5 /* Nominatim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1782F407BEF893DE07C651FEF5163737 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A91E21BE076F99F01A23B89B89C9 /* SwiftSpinner.swift */; };
+		29230F9B7F106D4631F327201F307083 /* PastelGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12E47DD6BB205DE2E0E70EEDD1B8A4 /* PastelGradient.swift */; };
 		3298FD8DCC89BEE4E94A9580493F2CF2 /* Pods-VectorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B33E5B72AF7582FC2904E0675EBDCEE /* Pods-VectorTests-dummy.m */; };
-		43ABB73F7E503E062FC320496B1CD8A2 /* Pods-Vector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F4C95CD5E3226BA76FA3DB05DF37A6 /* Pods-Vector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47AD49CBBA8CB6134637A61F63BA166C /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F21F2E2A7A4959A48F143D6028BF0812 /* SwiftSpinner-dummy.m */; };
-		83B8556C3E8225560E53DFC117A48A6B /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED941D3854989C12A2EE1087A5471CE /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330B729FF590E290389CF2467376B984 /* Pods-Vector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7201D31E3319FC452F0310C0EC6A9FBF /* Pods-Vector-dummy.m */; };
+		3D741A1F93C55A3B4219AC2AEC7A4AAA /* Pastel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F13FB189E6143ADA1517C5740D0FBE /* Pastel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4191327153FC11E184EE8AC1AD314423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5AAB610241F22F53227EAE80AC384C5D /* PastelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C171FADBC0E2F0658DEECD0D67781A /* PastelLabel.swift */; };
+		679C5CA729F64C41476772DDCC2A27F4 /* PastelPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC52FBE944FE1529B680F60C8256026 /* PastelPoint.swift */; };
+		6B874FDC7FF77909C203875D8A1FB5E6 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E1D85CB3D1860ED37328D8ABC47AF /* SwiftSpinner-dummy.m */; };
+		83C28977402EEAD8AA6C156C34817903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		83DE6A6A253506EB6E0ADBCDC927AEB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		84A6F366E7E477D12C08CF935F00D07C /* Pods-Vector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F4C95CD5E3226BA76FA3DB05DF37A6 /* Pods-Vector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8998AAD50546A54B1ABE5420E98C59DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		971A20B167612CDCA147C39A393A76CE /* Pods-VectorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A168766589179E711B39251FD70A8C2 /* Pods-VectorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		985862F5C47F50FDE98A9126DBD2A79E /* Pods-Vector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7201D31E3319FC452F0310C0EC6A9FBF /* Pods-Vector-dummy.m */; };
 		A343791BF25ECF33BE38B2EE29A73711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		C39BD2D88ABBFB8EA98A303B62B231D0 /* Nominatim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8937AFC5F8A16474E2CA79E1CCA9AD56 /* Nominatim-dummy.m */; };
+		A699CB3EE37FDDF46B3C0C53144B9969 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CF002EEB62C65D329475A8B3AD5D74 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F4A61545527961773D77BD6D12D792 /* PastelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1593C7A8FB233032DFE0B4C6730EDB77 /* PastelView.swift */; };
+		AFA86F70C3209679A7F8AFACC1765F7E /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31321657365682C10B8C11616C15B424 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B085BEBF6E7B80F9CE418469731C0E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		C39BD2D88ABBFB8EA98A303B62B231D0 /* Nominatim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0767AC7DC921EE73087D10D7AAAFB825 /* Nominatim-dummy.m */; };
 		C7A7E2681CC772704BD9B1613B7ED170 /* Pods-VectorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB60844E046B90C587D0C19552FDF19C /* Pods-VectorUITests-dummy.m */; };
-		DDE4B888068B427B704A5713B8CF1730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D334B1C0E2273299EE7B2302D050855D /* Pastel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A289CE08AB2D81D8AEB7923C9C9BDBF /* Pastel-dummy.m */; };
 		DEB5B649F96852E2C3DDB6F9FF7B2C16 /* Pods-VectorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85AB97B30E861911B7C9ED51BC5C719D /* Pods-VectorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4BCD0C420540F186AA3B241E84976DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		E9A64771E8B850D705282B06F8DD1CEA /* Nominatim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D094EC2C480EC57A8166BED1F0CE9 /* Nominatim.swift */; };
-		F8F44041FA175C0F2669501619AEB90B /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9391C92A19C9B4CC2EC8E076F73EC1 /* SwiftSpinner.swift */; };
+		E9A64771E8B850D705282B06F8DD1CEA /* Nominatim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A549FDB2E1640914809AC783702A /* Nominatim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24AC69EABD085C35938DBFA0B7D58D56 /* PBXContainerItemProxy */ = {
+		1DD459B53EEA0E8648ECD78CA4536C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2CB0EDEAA5FFCC39BF65E0A335CE15;
+			remoteInfo = SwiftSpinner;
+		};
+		4660AA47F93E3B70E4C69D48EE854D2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6F62BC4D5577D9F8396A47568C72BB57;
 			remoteInfo = Nominatim;
 		};
-		A32191D58982EDB6C4A781916C3B95E3 /* PBXContainerItemProxy */ = {
+		AF3D4C84CBD89EFB8CE4FD560E3E57CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A50847269C86F73F9BD9C45E46521CCA;
-			remoteInfo = SwiftSpinner;
+			remoteGlobalIDString = 409E92BC21862F90CD05B14498505381;
+			remoteInfo = Pastel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BC896C7D120A840CD7BA2F42FEE3528 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		00B1023EEA507FFBE1052E556EEFD7CF /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		0102049EEC1B9B7FDD60D58FA55EA41E /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		012EEFD14F6130F0D7C854C643210DF6 /* Pastel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-prefix.pch"; sourceTree = "<group>"; };
+		0206E77BBA4AFF7035511434D0D5CEB5 /* Pods_VectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VectorUITests.framework; path = "Pods-VectorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CF002EEB62C65D329475A8B3AD5D74 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		0767AC7DC921EE73087D10D7AAAFB825 /* Nominatim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nominatim-dummy.m"; sourceTree = "<group>"; };
+		0C65B5D1E7AA4F2550725B6EF528E4C5 /* Nominatim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-umbrella.h"; sourceTree = "<group>"; };
+		0DD9BA416E11E24DAAA390D3578CF2F2 /* Pods_VectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VectorTests.framework; path = "Pods-VectorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECE97156C90BF87D3D7677777A22C60 /* Nominatim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nominatim.framework; path = Nominatim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DE85460A841F944D57A06618500B87 /* Pods-Vector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vector.modulemap"; sourceTree = "<group>"; };
-		16EE72650729703735042BAF39A08625 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A4280B20E1169E108271BC1901AE2F6 /* Pods_VectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VectorUITests.framework; path = "Pods-VectorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1593C7A8FB233032DFE0B4C6730EDB77 /* PastelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelView.swift; path = Pastel/Classes/PastelView.swift; sourceTree = "<group>"; };
 		1D15491FF1EBDAF3687FCE53D9FF1420 /* Pods-VectorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VectorTests-frameworks.sh"; sourceTree = "<group>"; };
-		22BF2559877E59049F6D7A926A328C32 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		262C42B51B0FA71D6E9EB1D3CE2DEC70 /* Pods-VectorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VectorTests-resources.sh"; sourceTree = "<group>"; };
 		27882E0CAC2FD303DDA84454C7557C4F /* Pods-VectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		310D094EC2C480EC57A8166BED1F0CE9 /* Nominatim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nominatim.swift; path = Pods/Classes/Nominatim.swift; sourceTree = "<group>"; };
-		3B2AE3CBF37ECCE7B2E39DA888D3D268 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		2B6B6DB34D4BB79E8883AC63049C62D6 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31321657365682C10B8C11616C15B424 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		33E0A549FDB2E1640914809AC783702A /* Nominatim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nominatim.swift; path = Pods/Classes/Nominatim.swift; sourceTree = "<group>"; };
+		3E12E47DD6BB205DE2E0E70EEDD1B8A4 /* PastelGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelGradient.swift; path = Pastel/Classes/PastelGradient.swift; sourceTree = "<group>"; };
 		41E79303E9DF57538C79FE1DC008C8EA /* Pods-VectorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VectorUITests-resources.sh"; sourceTree = "<group>"; };
-		44B77D49EE5F9B6838D0B9CE07A7AB01 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		4683DDE44E9AF4C66B124130B286B9A5 /* Nominatim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-umbrella.h"; sourceTree = "<group>"; };
+		450ED3D5E138A53E5DA8540C88337A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47626302390B7AAF9FF7C3C60B30D28A /* Pods-Vector-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vector-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4DC2691655B25175D3CB9FCB7FE224BF /* Nominatim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nominatim.framework; path = Nominatim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5365C9B7E5C33A47B269B7D6E942D119 /* Nominatim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-prefix.pch"; sourceTree = "<group>"; };
+		48E273E5E36B0DDA083ED7CA38A8A25F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		490B50EE04EF1EC0BD365E47D2BBB10D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A289CE08AB2D81D8AEB7923C9C9BDBF /* Pastel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pastel-dummy.m"; sourceTree = "<group>"; };
+		4A6571137E54866AE7CF0B8CB811CCC6 /* Nominatim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nominatim-prefix.pch"; sourceTree = "<group>"; };
+		4CD12241E885E9CBC1AF5EA18EAA59E2 /* Pastel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pastel.modulemap; sourceTree = "<group>"; };
+		4E37A91E21BE076F99F01A23B89B89C9 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		55B2DF35407E2D629F21D779CF773E75 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
 		57496CF616DF3B10BC4926F1758F5D0C /* Pods-VectorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VectorTests.modulemap"; sourceTree = "<group>"; };
 		5A168766589179E711B39251FD70A8C2 /* Pods-VectorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VectorTests-umbrella.h"; sourceTree = "<group>"; };
 		5B33E5B72AF7582FC2904E0675EBDCEE /* Pods-VectorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VectorTests-dummy.m"; sourceTree = "<group>"; };
-		5ED941D3854989C12A2EE1087A5471CE /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
 		603EFE92234A50C4B2D69E2D998A2041 /* Pods-Vector-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vector-frameworks.sh"; sourceTree = "<group>"; };
-		60AC501BDDAE36FBCD1CCCFEE36DF137 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
-		61D63D323F8A12DAE2B3FAA01C330E4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66F37D7090454399A120DFDB1BC20B6F /* Nominatim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nominatim.xcconfig; sourceTree = "<group>"; };
+		6AC52FBE944FE1529B680F60C8256026 /* PastelPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelPoint.swift; path = Pastel/Classes/PastelPoint.swift; sourceTree = "<group>"; };
+		6E7EB236055BAA214031BA6499380D90 /* Pods_Vector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vector.framework; path = "Pods-Vector.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E808788351A1C86081093BE9C53401F /* Pods-VectorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VectorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6ED6392E5B111DC4E219F2D1430C1E05 /* Pods-Vector-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vector-acknowledgements.plist"; sourceTree = "<group>"; };
 		7201D31E3319FC452F0310C0EC6A9FBF /* Pods-Vector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vector-dummy.m"; sourceTree = "<group>"; };
 		72C9304C6D86B2291773659A4227DD7B /* Pods-VectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		75F13FB189E6143ADA1517C5740D0FBE /* Pastel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-umbrella.h"; sourceTree = "<group>"; };
 		80509C474369A195A5DAA6CC0D9FA54E /* Pods-VectorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VectorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		819957BB4D74DBBC2C8E05E75B00B1E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85AB97B30E861911B7C9ED51BC5C719D /* Pods-VectorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VectorUITests-umbrella.h"; sourceTree = "<group>"; };
 		87DCFA71212F2E50422E8780566BBFD3 /* Pods-VectorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VectorUITests.modulemap"; sourceTree = "<group>"; };
-		8937AFC5F8A16474E2CA79E1CCA9AD56 /* Nominatim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nominatim-dummy.m"; sourceTree = "<group>"; };
-		8B261A858316B7965C4F8AAF64668E59 /* Nominatim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nominatim.modulemap; sourceTree = "<group>"; };
-		92E23E409977723923E2CCE4436C3E3A /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		8B00E8C1E8F5EB0B912570D64C213357 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957389CCA002C3D7D362AFF334EEE9D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		966CBC0089045A8FA532F06B85AAD953 /* Pods_VectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VectorTests.framework; path = "Pods-VectorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C7E93C37D91C9D40A08229A1857AA9 /* Pods-VectorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VectorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99FBD2D741CCF75072944F9327F44F5D /* Nominatim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nominatim.modulemap; sourceTree = "<group>"; };
 		9E402136D2F835B3ACDB48D27FC49103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A25731C5A5E5F9DCDECBFD6E530CFF00 /* Pods-VectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VectorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5123B973342DCDCF558EFAC4E9A9241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DAB5B55EA714512DC1754892807EBE /* Pods-VectorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VectorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6F2EA4B76E79389B61C00BD66E3F3A5 /* Pastel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pastel.xcconfig; sourceTree = "<group>"; };
 		B018AEEE3DEB60166F420E70A83D7134 /* Pods-VectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VectorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1EB5318321650277A57C932B21D4F7E /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		B0C97A449F986BB7B0F4B4265F11C359 /* Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pastel.framework; path = Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B92ACE520586F572E04F267B385BDA09 /* Pods-VectorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VectorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0C171FADBC0E2F0658DEECD0D67781A /* PastelLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelLabel.swift; path = Pastel/Classes/PastelLabel.swift; sourceTree = "<group>"; };
 		C8F4C95CD5E3226BA76FA3DB05DF37A6 /* Pods-Vector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vector-umbrella.h"; sourceTree = "<group>"; };
 		CA26C171CFE37D56611D1412E9C6C3A5 /* Pods-Vector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vector.release.xcconfig"; sourceTree = "<group>"; };
 		D0CFDBF338766AEC547EB613E5A47B7C /* Pods-Vector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vector.debug.xcconfig"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF3EE591EC815F6F344F47E4C0AB9A64 /* Nominatim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nominatim.xcconfig; sourceTree = "<group>"; };
+		E34C6355EEB12430671F4D259B12571B /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
 		EB60844E046B90C587D0C19552FDF19C /* Pods-VectorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VectorUITests-dummy.m"; sourceTree = "<group>"; };
-		F21F2E2A7A4959A48F143D6028BF0812 /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
-		F752D8AB1F848EAB824DE17B007FE6C6 /* Pods_Vector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vector.framework; path = "Pods-Vector.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA9391C92A19C9B4CC2EC8E076F73EC1 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
-		FE7BE5AF62D5CAFC64406B95217EBE36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75E1D85CB3D1860ED37328D8ABC47AF /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
 		FEF5DDC8DB6176ABD288EFEB469FC086 /* Pods-Vector-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vector-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,11 +138,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		383BF825173B91F7881BA0618FCE6D2C /* Frameworks */ = {
+		35800C1B634E3108E0E89BF5C2C4D7BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6322755EC4E72960C620AD75932ECC /* Foundation.framework in Frameworks */,
+				8998AAD50546A54B1ABE5420E98C59DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,45 +162,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6B498B27D8241447D3A064E2123E4BA /* Frameworks */ = {
+		97724CDD5AD2BF691402BAD8C2160503 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE4B888068B427B704A5713B8CF1730 /* Foundation.framework in Frameworks */,
-				2048516EB353E728796EF059E4C49B6A /* UIKit.framework in Frameworks */,
+				4191327153FC11E184EE8AC1AD314423 /* Foundation.framework in Frameworks */,
+				B085BEBF6E7B80F9CE418469731C0E39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EA8C337FF4ACCBFFD5C5A20CCB79F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C28977402EEAD8AA6C156C34817903 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CC106063E6BADCA8C5A456C8FAD550F /* GooglePlaces */ = {
+		0BE10EDEDA32732658A0AB9A9DCF19D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C82E91F246038922CAC131B221A934FF /* Frameworks */,
-				207A8F559E91D6C2F18A7902AF54097D /* Resources */,
+				819957BB4D74DBBC2C8E05E75B00B1E4 /* Info.plist */,
+				99FBD2D741CCF75072944F9327F44F5D /* Nominatim.modulemap */,
+				DF3EE591EC815F6F344F47E4C0AB9A64 /* Nominatim.xcconfig */,
+				0767AC7DC921EE73087D10D7AAAFB825 /* Nominatim-dummy.m */,
+				4A6571137E54866AE7CF0B8CB811CCC6 /* Nominatim-prefix.pch */,
+				0C65B5D1E7AA4F2550725B6EF528E4C5 /* Nominatim-umbrella.h */,
 			);
-			name = GooglePlaces;
-			path = GooglePlaces;
+			name = "Support Files";
+			path = "../Target Support Files/Nominatim";
 			sourceTree = "<group>";
 		};
-		207A8F559E91D6C2F18A7902AF54097D /* Resources */ = {
+		2C877560159EA5FCE0CAC1758C26C1FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				22BF2559877E59049F6D7A926A328C32 /* GooglePlaces.bundle */,
+				0102049EEC1B9B7FDD60D58FA55EA41E /* GooglePlaces.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		2DEBA25A4DB285D24F0751DDF84506C4 /* SwiftSpinner */ = {
+		3022B77FC118759D56BCB6112A70D665 /* Pastel */ = {
 			isa = PBXGroup;
 			children = (
-				5ED941D3854989C12A2EE1087A5471CE /* SwiftSpinner.h */,
-				FA9391C92A19C9B4CC2EC8E076F73EC1 /* SwiftSpinner.swift */,
-				473E3347BF8D3AB3D34D05C4FF8E5A2A /* Support Files */,
+				3E12E47DD6BB205DE2E0E70EEDD1B8A4 /* PastelGradient.swift */,
+				C0C171FADBC0E2F0658DEECD0D67781A /* PastelLabel.swift */,
+				6AC52FBE944FE1529B680F60C8256026 /* PastelPoint.swift */,
+				1593C7A8FB233032DFE0B4C6730EDB77 /* PastelView.swift */,
+				4111CC4AD0FD0D3F7161F741FDDEB0D9 /* Support Files */,
 			);
-			name = SwiftSpinner;
-			path = SwiftSpinner;
+			name = Pastel;
+			path = Pastel;
 			sourceTree = "<group>";
 		};
 		37868096B8EB97EF87139BF56EEFBBD9 /* Pods-VectorTests */ = {
@@ -196,6 +235,28 @@
 			path = "Target Support Files/Pods-VectorTests";
 			sourceTree = "<group>";
 		};
+		3817208D499F96C05E3E7CB7D430F0FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4EFE405F07842DD7EC0CD948BFA6A /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4111CC4AD0FD0D3F7161F741FDDEB0D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				450ED3D5E138A53E5DA8540C88337A5F /* Info.plist */,
+				4CD12241E885E9CBC1AF5EA18EAA59E2 /* Pastel.modulemap */,
+				A6F2EA4B76E79389B61C00BD66E3F3A5 /* Pastel.xcconfig */,
+				4A289CE08AB2D81D8AEB7923C9C9BDBF /* Pastel-dummy.m */,
+				012EEFD14F6130F0D7C854C643210DF6 /* Pastel-prefix.pch */,
+				75F13FB189E6143ADA1517C5740D0FBE /* Pastel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pastel";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,18 +274,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		473E3347BF8D3AB3D34D05C4FF8E5A2A /* Support Files */ = {
+		5033250B61A102B6FC7ECDE4BCE1D4EF /* SwiftSpinner */ = {
 			isa = PBXGroup;
 			children = (
-				61D63D323F8A12DAE2B3FAA01C330E4D /* Info.plist */,
-				60AC501BDDAE36FBCD1CCCFEE36DF137 /* SwiftSpinner.modulemap */,
-				92E23E409977723923E2CCE4436C3E3A /* SwiftSpinner.xcconfig */,
-				F21F2E2A7A4959A48F143D6028BF0812 /* SwiftSpinner-dummy.m */,
-				3B2AE3CBF37ECCE7B2E39DA888D3D268 /* SwiftSpinner-prefix.pch */,
-				0BC896C7D120A840CD7BA2F42FEE3528 /* SwiftSpinner-umbrella.h */,
+				05CF002EEB62C65D329475A8B3AD5D74 /* SwiftSpinner.h */,
+				4E37A91E21BE076F99F01A23B89B89C9 /* SwiftSpinner.swift */,
+				D31F0CEE7D5A0D61BE60ED58729D4BC5 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftSpinner";
+			name = SwiftSpinner;
+			path = SwiftSpinner;
 			sourceTree = "<group>";
 		};
 		50B3C874CFE924941E9D8CDFBDE98B92 /* Pods-Vector */ = {
@@ -245,12 +303,13 @@
 			path = "Target Support Files/Pods-Vector";
 			sourceTree = "<group>";
 		};
-		5E01852D4FE7633F793CAAC6BF4AFC06 /* Base */ = {
+		627C790041318AAB18548D2BF355431E /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				854DCC765508267320B9C1444F8EE87F /* Frameworks */,
+				3817208D499F96C05E3E7CB7D430F0FA /* Base */,
 			);
-			name = Base;
+			name = GoogleMaps;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -258,68 +317,65 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				B9D6BA9EE2232BE48D4E37BD0048E831 /* Pods */,
-				7E341E3FFDD99BC6C6DA3A481F731F3E /* Products */,
+				FEA20A2DF2F0F03EA5CEA851CBDBA622 /* Pods */,
+				CA8D228E92347E3E446F3D197BF1C282 /* Products */,
 				D9246BD4F1AB402F15377261A31337E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E341E3FFDD99BC6C6DA3A481F731F3E /* Products */ = {
+		9342C0D994661B47AB9E09F93FACD638 /* Nominatim */ = {
 			isa = PBXGroup;
 			children = (
-				4DC2691655B25175D3CB9FCB7FE224BF /* Nominatim.framework */,
-				F752D8AB1F848EAB824DE17B007FE6C6 /* Pods_Vector.framework */,
-				966CBC0089045A8FA532F06B85AAD953 /* Pods_VectorTests.framework */,
-				1A4280B20E1169E108271BC1901AE2F6 /* Pods_VectorUITests.framework */,
-				16EE72650729703735042BAF39A08625 /* SwiftSpinner.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		854DCC765508267320B9C1444F8EE87F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44B77D49EE5F9B6838D0B9CE07A7AB01 /* GoogleMapsBase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		940D4AE537B9187CD810B55AB1EBB471 /* Nominatim */ = {
-			isa = PBXGroup;
-			children = (
-				310D094EC2C480EC57A8166BED1F0CE9 /* Nominatim.swift */,
-				F27D604FCA496C79467F4141FB65AE6D /* Support Files */,
+				33E0A549FDB2E1640914809AC783702A /* Nominatim.swift */,
+				0BE10EDEDA32732658A0AB9A9DCF19D5 /* Support Files */,
 			);
 			name = Nominatim;
 			path = Nominatim;
 			sourceTree = "<group>";
 		};
-		9995C784F67AE93DA54170F55C99EE14 /* GoogleMaps */ = {
+		BA2B8F045906AC33125CD7AF5543B148 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E01852D4FE7633F793CAAC6BF4AFC06 /* Base */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		B9D6BA9EE2232BE48D4E37BD0048E831 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9995C784F67AE93DA54170F55C99EE14 /* GoogleMaps */,
-				1CC106063E6BADCA8C5A456C8FAD550F /* GooglePlaces */,
-				940D4AE537B9187CD810B55AB1EBB471 /* Nominatim */,
-				2DEBA25A4DB285D24F0751DDF84506C4 /* SwiftSpinner */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C82E91F246038922CAC131B221A934FF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B1EB5318321650277A57C932B21D4F7E /* GooglePlaces.framework */,
+				48E273E5E36B0DDA083ED7CA38A8A25F /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA8D228E92347E3E446F3D197BF1C282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ECE97156C90BF87D3D7677777A22C60 /* Nominatim.framework */,
+				B0C97A449F986BB7B0F4B4265F11C359 /* Pastel.framework */,
+				6E7EB236055BAA214031BA6499380D90 /* Pods_Vector.framework */,
+				0DD9BA416E11E24DAAA390D3578CF2F2 /* Pods_VectorTests.framework */,
+				0206E77BBA4AFF7035511434D0D5CEB5 /* Pods_VectorUITests.framework */,
+				2B6B6DB34D4BB79E8883AC63049C62D6 /* SwiftSpinner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31F0CEE7D5A0D61BE60ED58729D4BC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				490B50EE04EF1EC0BD365E47D2BBB10D /* Info.plist */,
+				00B1023EEA507FFBE1052E556EEFD7CF /* SwiftSpinner.modulemap */,
+				E34C6355EEB12430671F4D259B12571B /* SwiftSpinner.xcconfig */,
+				F75E1D85CB3D1860ED37328D8ABC47AF /* SwiftSpinner-dummy.m */,
+				55B2DF35407E2D629F21D779CF773E75 /* SwiftSpinner-prefix.pch */,
+				31321657365682C10B8C11616C15B424 /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		D7245DA221CD116B79D42CE32BDBC6C4 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B8F045906AC33125CD7AF5543B148 /* Frameworks */,
+				2C877560159EA5FCE0CAC1758C26C1FE /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
 		D9246BD4F1AB402F15377261A31337E6 /* Targets Support Files */ = {
@@ -350,31 +406,29 @@
 			path = "Target Support Files/Pods-VectorUITests";
 			sourceTree = "<group>";
 		};
-		F27D604FCA496C79467F4141FB65AE6D /* Support Files */ = {
+		E4E4EFE405F07842DD7EC0CD948BFA6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE7BE5AF62D5CAFC64406B95217EBE36 /* Info.plist */,
-				8B261A858316B7965C4F8AAF64668E59 /* Nominatim.modulemap */,
-				66F37D7090454399A120DFDB1BC20B6F /* Nominatim.xcconfig */,
-				8937AFC5F8A16474E2CA79E1CCA9AD56 /* Nominatim-dummy.m */,
-				5365C9B7E5C33A47B269B7D6E942D119 /* Nominatim-prefix.pch */,
-				4683DDE44E9AF4C66B124130B286B9A5 /* Nominatim-umbrella.h */,
+				8B00E8C1E8F5EB0B912570D64C213357 /* GoogleMapsBase.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Nominatim";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA20A2DF2F0F03EA5CEA851CBDBA622 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				627C790041318AAB18548D2BF355431E /* GoogleMaps */,
+				D7245DA221CD116B79D42CE32BDBC6C4 /* GooglePlaces */,
+				9342C0D994661B47AB9E09F93FACD638 /* Nominatim */,
+				3022B77FC118759D56BCB6112A70D665 /* Pastel */,
+				5033250B61A102B6FC7ECDE4BCE1D4EF /* SwiftSpinner */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02EC4E80C5E8A44A0D6823D6A53C52D9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43ABB73F7E503E062FC320496B1CD8A2 /* Pods-Vector-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42A7987CB352144007E7FFA4B0C76000 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,12 +437,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DD573A658FC61A8257968E72E8977FB /* Headers */ = {
+		6D2BFF9876BF74947FFBFD9EF566F98C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A1E8B84A183F19949A59481ACC8B115 /* SwiftSpinner-umbrella.h in Headers */,
-				83B8556C3E8225560E53DFC117A48A6B /* SwiftSpinner.h in Headers */,
+				84A6F366E7E477D12C08CF935F00D07C /* Pods-Vector-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +453,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F49F40BD2ADE5FEAFFBA5F389253BB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D741A1F93C55A3B4219AC2AEC7A4AAA /* Pastel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC160126010E8D58DF65094D3A98A0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,26 +469,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E881B201F1F2CCCFAE9FF3F549E7D0FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA86F70C3209679A7F8AFACC1765F7E /* SwiftSpinner-umbrella.h in Headers */,
+				A699CB3EE37FDDF46B3C0C53144B9969 /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		367A1ECA99B45465F88A306E285EF73D /* Pods-Vector */ = {
+		00C30C0961CF66AA22E50EE6457D5C1F /* Pods-Vector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 120478910ED73134758F148E630E8FF7 /* Build configuration list for PBXNativeTarget "Pods-Vector" */;
+			buildConfigurationList = 4A1086057E70C23C0B90C4A19A077397 /* Build configuration list for PBXNativeTarget "Pods-Vector" */;
 			buildPhases = (
-				6804FE1E5EFA76C74F953B17122ADF4B /* Sources */,
-				383BF825173B91F7881BA0618FCE6D2C /* Frameworks */,
-				02EC4E80C5E8A44A0D6823D6A53C52D9 /* Headers */,
+				638CA4506EAB534121FE2A4830F193A0 /* Sources */,
+				C7EA8C337FF4ACCBFFD5C5A20CCB79F4 /* Frameworks */,
+				6D2BFF9876BF74947FFBFD9EF566F98C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E851B32DB02AF5ADA826007DB3269BD /* PBXTargetDependency */,
-				D1BDA39B6C0E085104A827EBD13BE13B /* PBXTargetDependency */,
+				9F26CB64915E396F5C1A490797FCD85C /* PBXTargetDependency */,
+				65157C593EECB2F530A3457997A06AD4 /* PBXTargetDependency */,
+				19EF196E7FDF8132E55F80C38DEA978B /* PBXTargetDependency */,
 			);
 			name = "Pods-Vector";
 			productName = "Pods-Vector";
-			productReference = F752D8AB1F848EAB824DE17B007FE6C6 /* Pods_Vector.framework */;
+			productReference = 6E7EB236055BAA214031BA6499380D90 /* Pods_Vector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A2CB0EDEAA5FFCC39BF65E0A335CE15 /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099D8354EA135877873C05D50D861579 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				12C3723FEEE2BB799863445418B4D84C /* Sources */,
+				97724CDD5AD2BF691402BAD8C2160503 /* Frameworks */,
+				E881B201F1F2CCCFAE9FF3F549E7D0FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = 2B6B6DB34D4BB79E8883AC63049C62D6 /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		409E92BC21862F90CD05B14498505381 /* Pastel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5626A8A3C99EC45ED045D51F7522ACA9 /* Build configuration list for PBXNativeTarget "Pastel" */;
+			buildPhases = (
+				B231B4CAF0F03660539B00DA58C5B0EA /* Sources */,
+				35800C1B634E3108E0E89BF5C2C4D7BB /* Frameworks */,
+				9F49F40BD2ADE5FEAFFBA5F389253BB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pastel;
+			productName = Pastel;
+			productReference = B0C97A449F986BB7B0F4B4265F11C359 /* Pastel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6F62BC4D5577D9F8396A47568C72BB57 /* Nominatim */ = {
@@ -444,7 +549,7 @@
 			);
 			name = Nominatim;
 			productName = Nominatim;
-			productReference = 4DC2691655B25175D3CB9FCB7FE224BF /* Nominatim.framework */;
+			productReference = 0ECE97156C90BF87D3D7677777A22C60 /* Nominatim.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A009826C0F3DE435AC24B82661D67536 /* Pods-VectorTests */ = {
@@ -461,24 +566,7 @@
 			);
 			name = "Pods-VectorTests";
 			productName = "Pods-VectorTests";
-			productReference = 966CBC0089045A8FA532F06B85AAD953 /* Pods_VectorTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A50847269C86F73F9BD9C45E46521CCA /* SwiftSpinner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AA8BDE95B34D21FC0083D3298FB1E6C /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
-			buildPhases = (
-				D7A0F13F539B1646C7809556294842D3 /* Sources */,
-				F6B498B27D8241447D3A064E2123E4BA /* Frameworks */,
-				6DD573A658FC61A8257968E72E8977FB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftSpinner;
-			productName = SwiftSpinner;
-			productReference = 16EE72650729703735042BAF39A08625 /* SwiftSpinner.framework */;
+			productReference = 0DD9BA416E11E24DAAA390D3578CF2F2 /* Pods_VectorTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C31F54593AD4E4A26E1A4CF1F62B617E /* Pods-VectorUITests */ = {
@@ -495,7 +583,7 @@
 			);
 			name = "Pods-VectorUITests";
 			productName = "Pods-VectorUITests";
-			productReference = 1A4280B20E1169E108271BC1901AE2F6 /* Pods_VectorUITests.framework */;
+			productReference = 0206E77BBA4AFF7035511434D0D5CEB5 /* Pods_VectorUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -515,20 +603,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7E341E3FFDD99BC6C6DA3A481F731F3E /* Products */;
+			productRefGroup = CA8D228E92347E3E446F3D197BF1C282 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6F62BC4D5577D9F8396A47568C72BB57 /* Nominatim */,
-				367A1ECA99B45465F88A306E285EF73D /* Pods-Vector */,
+				409E92BC21862F90CD05B14498505381 /* Pastel */,
+				00C30C0961CF66AA22E50EE6457D5C1F /* Pods-Vector */,
 				A009826C0F3DE435AC24B82661D67536 /* Pods-VectorTests */,
 				C31F54593AD4E4A26E1A4CF1F62B617E /* Pods-VectorUITests */,
-				A50847269C86F73F9BD9C45E46521CCA /* SwiftSpinner */,
+				2A2CB0EDEAA5FFCC39BF65E0A335CE15 /* SwiftSpinner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		12C3723FEEE2BB799863445418B4D84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B874FDC7FF77909C203875D8A1FB5E6 /* SwiftSpinner-dummy.m in Sources */,
+				1782F407BEF893DE07C651FEF5163737 /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56ABC9A8F23AE2EB6AAAA9643FA97843 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -538,11 +636,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6804FE1E5EFA76C74F953B17122ADF4B /* Sources */ = {
+		638CA4506EAB534121FE2A4830F193A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985862F5C47F50FDE98A9126DBD2A79E /* Pods-Vector-dummy.m in Sources */,
+				330B729FF590E290389CF2467376B984 /* Pods-Vector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,12 +652,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7A0F13F539B1646C7809556294842D3 /* Sources */ = {
+		B231B4CAF0F03660539B00DA58C5B0EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AD49CBBA8CB6134637A61F63BA166C /* SwiftSpinner-dummy.m in Sources */,
-				F8F44041FA175C0F2669501619AEB90B /* SwiftSpinner.swift in Sources */,
+				D334B1C0E2273299EE7B2302D050855D /* Pastel-dummy.m in Sources */,
+				29230F9B7F106D4631F327201F307083 /* PastelGradient.swift in Sources */,
+				5AAB610241F22F53227EAE80AC384C5D /* PastelLabel.swift in Sources */,
+				679C5CA729F64C41476772DDCC2A27F4 /* PastelPoint.swift in Sources */,
+				A8F4A61545527961773D77BD6D12D792 /* PastelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,17 +675,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E851B32DB02AF5ADA826007DB3269BD /* PBXTargetDependency */ = {
+		19EF196E7FDF8132E55F80C38DEA978B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = 2A2CB0EDEAA5FFCC39BF65E0A335CE15 /* SwiftSpinner */;
+			targetProxy = 1DD459B53EEA0E8648ECD78CA4536C5A /* PBXContainerItemProxy */;
+		};
+		65157C593EECB2F530A3457997A06AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pastel;
+			target = 409E92BC21862F90CD05B14498505381 /* Pastel */;
+			targetProxy = AF3D4C84CBD89EFB8CE4FD560E3E57CC /* PBXContainerItemProxy */;
+		};
+		9F26CB64915E396F5C1A490797FCD85C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Nominatim;
 			target = 6F62BC4D5577D9F8396A47568C72BB57 /* Nominatim */;
-			targetProxy = 24AC69EABD085C35938DBFA0B7D58D56 /* PBXContainerItemProxy */;
-		};
-		D1BDA39B6C0E085104A827EBD13BE13B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSpinner;
-			target = A50847269C86F73F9BD9C45E46521CCA /* SwiftSpinner */;
-			targetProxy = A32191D58982EDB6C4A781916C3B95E3 /* PBXContainerItemProxy */;
+			targetProxy = 4660AA47F93E3B70E4C69D48EE854D2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -623,9 +730,9 @@
 			};
 			name = Release;
 		};
-		39058CD7D0DDBAEBA00170D0E35818E2 /* Release */ = {
+		4B0D503E6A36D7737450308154B7BC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92E23E409977723923E2CCE4436C3E3A /* SwiftSpinner.xcconfig */;
+			baseConfigurationReference = A6F2EA4B76E79389B61C00BD66E3F3A5 /* Pastel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -636,28 +743,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
-				PRODUCT_NAME = SwiftSpinner;
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				PRODUCT_NAME = Pastel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4B906E406E31A7169DC62257FBF7B5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F37D7090454399A120DFDB1BC20B6F /* Nominatim.xcconfig */;
+			baseConfigurationReference = DF3EE591EC815F6F344F47E4C0AB9A64 /* Nominatim.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,6 +781,73 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nominatim/Nominatim.modulemap";
 				PRODUCT_NAME = Nominatim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		525D4C75EF262EE832F2281734FDF6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA26C171CFE37D56611D1412E9C6C3A5 /* Pods-Vector.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vector/Pods-Vector.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Vector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		968C5B70E813E1F87BCB54809FF68066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34C6355EEB12430671F4D259B12571B /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -778,10 +951,11 @@
 			};
 			name = Release;
 		};
-		A896036939B760BBC157653DA5762BEF /* Debug */ = {
+		A754EA93106E90831FCBC5E657462107 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92E23E409977723923E2CCE4436C3E3A /* SwiftSpinner.xcconfig */;
+			baseConfigurationReference = D0CFDBF338766AEC547EB613E5A47B7C /* Pods-Vector.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -791,18 +965,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vector/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
-				PRODUCT_NAME = SwiftSpinner;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vector/Pods-Vector.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Vector;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -905,79 +1082,9 @@
 			};
 			name = Debug;
 		};
-		C8686FD84A081263D1AFDD8299C0EE79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0CFDBF338766AEC547EB613E5A47B7C /* Pods-Vector.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Vector/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Vector/Pods-Vector.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Vector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF154FC0939088B8FD0AE078FFDCBA66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA26C171CFE37D56611D1412E9C6C3A5 /* Pods-Vector.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Vector/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Vector/Pods-Vector.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Vector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DD117768D11D72AC491335388612D9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F37D7090454399A120DFDB1BC20B6F /* Nominatim.xcconfig */;
+			baseConfigurationReference = DF3EE591EC815F6F344F47E4C0AB9A64 /* Nominatim.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -995,6 +1102,69 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nominatim/Nominatim.modulemap";
 				PRODUCT_NAME = Nominatim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E100480D1FE2E2D2980CC0D798AF6C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F2EA4B76E79389B61C00BD66E3F3A5 /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E98F1458A66A4483B52667182F1F5726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34C6355EEB12430671F4D259B12571B /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1043,11 +1213,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		120478910ED73134758F148E630E8FF7 /* Build configuration list for PBXNativeTarget "Pods-Vector" */ = {
+		099D8354EA135877873C05D50D861579 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8686FD84A081263D1AFDD8299C0EE79 /* Debug */,
-				CF154FC0939088B8FD0AE078FFDCBA66 /* Release */,
+				E98F1458A66A4483B52667182F1F5726 /* Debug */,
+				968C5B70E813E1F87BCB54809FF68066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1070,20 +1240,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AA8BDE95B34D21FC0083D3298FB1E6C /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A896036939B760BBC157653DA5762BEF /* Debug */,
-				39058CD7D0DDBAEBA00170D0E35818E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		46AA5BC871E153B10CDDD96DE309A73E /* Build configuration list for PBXNativeTarget "Pods-VectorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FB4BC4A4C3E7436CE16F54692FAB684 /* Debug */,
 				EFDD47B9217491892DF25F54B41305C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1086057E70C23C0B90C4A19A077397 /* Build configuration list for PBXNativeTarget "Pods-Vector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A754EA93106E90831FCBC5E657462107 /* Debug */,
+				525D4C75EF262EE832F2281734FDF6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5626A8A3C99EC45ED045D51F7522ACA9 /* Build configuration list for PBXNativeTarget "Pastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0D503E6A36D7737450308154B7BC3C /* Debug */,
+				E100480D1FE2E2D2980CC0D798AF6C50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
